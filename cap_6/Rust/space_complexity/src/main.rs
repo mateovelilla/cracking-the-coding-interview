@@ -1,5 +1,8 @@
-use std::time::{Instant};
-use plotly::{Plot, Scatter};
+use std::time::Instant;
+use plotly::{
+    Plot,
+    Scatter
+};
 
 fn sum(num:i32) -> i32{
     if num == 0 {
@@ -10,8 +13,8 @@ fn sum(num:i32) -> i32{
 // this would take O(N) time and O(N) in space.
 fn main() {
     
-    let mut x:[i32; 5000] = [0;5000];
-    let mut y:[f32; 5000] = [0.0;5000];
+    let mut x:[i32; 50000] = [0;50000];
+    let mut y:[f32; 50000] = [0.0;50000];
     for i in 0..x.len() {
         let start = Instant::now();
         sum(i as i32);
