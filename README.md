@@ -12,6 +12,12 @@ copy your data into the new region, and free the old space. Assuming allocates a
 So each time you enlarge, you take abouit twice as much time as the larst enlarge. But you've also waited twice as long before doing it! The cost of each enlargerment can thus be "spread out" amoung insertions.
 this means that in the long term, the total time taken for adding m items to the array is O(m), and so the amortised time (i.e per insertion) is O(1)
 
+### Log N Runtime
+#### Tip
+    When you see a problem where the number of elements in the problem space gets halved each time, that will likely be a O(log N) runtime
+    this is the same reason why finding an element in a balanced binary search tree is O(log N). With each comparation, we go either left or right.
+    Half the nodes are on each side. so we cut the problem space in half each time(Tha bse doesn't matter infor the purposes of Big O             )
+
 ## Space Complexity (Cap 6)
 
 ### [Rust](https://github.com/mateovelilla/cracking-the-coding-interview/tree/main/cap_6/Rust/space_complexity)
