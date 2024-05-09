@@ -17,5 +17,5 @@ this means that in the long term, the total time taken for adding m items to the
 ### [Rust](https://github.com/mateovelilla/cracking-the-coding-interview/tree/main/cap_6/Rust/space_complexity)
 ![Space Complexity In Rust](https://github.com/mateovelilla/cracking-the-coding-interview/blob/main/cap_6/Rust/space_complexity/chart.png?raw=true)
 
-
-
+### Big O Complexity
+![Big O Complexity](https://github.com/mateovelilla/cracking-the-coding-interview/blob/main/imgs/big-o-all.png?raw=true)
